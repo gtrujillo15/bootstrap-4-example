@@ -12,6 +12,53 @@
 </head>
 
 <body>
+    <!-- add a div with container class // inside this, add a row // inside the row, add 12 .col divs // to these 12 divs, add a class = box // target box class, add border, heght, bgc = #eee -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col box"></div>
+            <div class="col box"></div>
+            <div class="col box"></div>
+            <div class="col box"></div>
+            <div class="col box"></div>
+            <div class="col box"></div>
+            <div class="col box"></div>
+            <div class="col box"></div>
+            <div class="col box"></div>
+            <div class="col box"></div>
+            <div class="col box"></div>
+            <div class="col box"></div>
+        </div>
+
+
+        <!-- add anoher row // insert 2 .col // change their width to be 4 each on medium screen size -->
+
+        <div class="row">
+            <div class="col box col-md-4"></div>
+            <div class="col box col-md-4"></div>
+        </div>
+
+        <!-- add another row // insert 3 .col // first: .col sm = 8, lg=6 // second: .col sm=3 // third .col sm = 6, lg=3 -->
+
+        <div class="row">
+            <div class="col box col-sm-8 col-lg-6"></div>
+            <div class="col box col-sm-3"></div>
+            <div class="col box col-sm-6 col-lg-3"></div>
+        </div>
+
+        <!-- add a row // insert 2 .col // inside 1st col, insert a row // inside nested row, add 2 .col-md-5.box // inside .col-md-5, add some text -->
+
+        <div class="row">
+            <div class="col box">
+                <div class="row">
+                    <div class="col-md-5 box-new">Lorem ipsum dolor sit amet.</div>
+                    <div class="col-md-5 box-new">Lorem ipsum dolor sit amet.</div>
+                </div>
+            </div>
+            <div class="col box"></div>
+        </div>
+
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
